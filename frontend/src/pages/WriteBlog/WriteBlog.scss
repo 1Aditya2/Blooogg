@@ -1,0 +1,55 @@
+.writeblog {
+//   border: 1px solid rebeccapurple;
+  .write-cont {
+    width: 80%;
+    // border: 1px solid red;
+    margin-bottom: 30px;
+    .form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-size: 1.2rem;
+      label {
+        font-weight: 700;
+      }
+      input {
+        padding: 2px 4px;
+        font-size: 1.2rem;
+      }
+      .radios {
+        display: flex;
+        justify-content: space-between;
+      }
+      .input-user-img {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        
+
+        .labelImg {
+          width: 100%;
+          height: 300px;
+        
+
+          text-align: center;
+
+          cursor: pointer;
+          img {
+            width: 100%;
+            height: 100%;
+            // border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+        .inputImg {
+          display: none;
+        }
+      }
+      button{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
